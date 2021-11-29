@@ -1,0 +1,267 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+html {
+    scroll-behavior: smooth;
+
+
+}
+
+body {
+    background-color: rgb(209, 202, 202);
+    box-sizing: content-box;
+    font-family: 'Josefin Sans', sans-serif;
+
+
+}
+
+.logo{
+    align-self: center;
+    margin: -15px -11px;
+     width: 100px;
+     list-style: none;
+     text-decoration: none;
+     font-size: 30px;
+     color: white;
+     padding-left: 20px;
+
+}
+
+
+
+.nav li {
+    text-align: left;
+    display: inline-block;
+    text-decoration: none;
+    list-style-type: none;
+
+
+}
+
+.nav {
+    display: block;
+    background-color: rgb(46, 45, 45, 0.9);
+    padding: 20px;
+    position: fixed;
+    width: 98%;
+
+    align-content: center;
+}
+
+
+li a {
+    text-decoration: none;
+    padding: 20px;
+    color: blanchedalmond;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size:18px;
+}
+
+.active {
+    margin-left: 50px;
+}
+
+li a:hover {
+    background-color: rgb(226, 221, 221);
+    color: black;
+    box-shadow: black 2px 2px 16px;
+    border-radius: 20px;
+}
+
+.box1 {
+    padding-top: 60px;
+    margin-top: 0;
+    height: 700px;
+    display: flex;
+    margin-left: 100px;
+    margin-right: 100px;
+    box-shadow: black 1px 1px 10px;
+
+}
+
+.para1 {
+    padding: 62px;
+    background-color: white;
+    font-weight: lighter;
+    font-family: 'Josefin Sans', sans-serif;
+    height: 576px;
+    width: 300px;
+    font-size: 20px;
+}
+
+.img1 {
+    display: flex;
+    height: 500px;
+    /* background-image: url(/f2potrait.jpg); */
+    background-size: cover;
+    /* text-align: center; */
+
+
+}
+
+
+
+.collage {
+
+    padding: 42px 13px;
+
+
+}
+
+.para {
+    padding: 20px 20px;
+}
+
+.para2 {
+    height: 300px;
+    width: 300px;
+    background-color: rgb(255, 255, 255);
+    margin: 30px;
+    margin-left: 51px;
+    padding-left: 47px;
+    padding-right: 37px;
+    font-weight: 300;
+    font-size: 18px;
+    padding-top: 30px;
+    text-align: center;
+    box-shadow: rgb(0, 0, 0) 5px 5px 24px;
+    border-radius: 20px;
+}
+
+.para2:hover {
+    height: 292px;
+    width: 292px;
+    border: 4px solid rgb(51, 50, 50);
+    cursor: pointer;
+
+}
+
+.sub {
+    height: 200px;
+    width: 300px;
+}
+
+.sub:hover {
+    height: 250px;
+    width: 350px;
+    box-shadow: rgb(0, 0, 0) 4px 4px 20px;
+    cursor: zoom-in;
+
+}
+
+.box2 {
+    margin: 20px 0px;
+    display: flex;
+
+    flex-direction: row;
+    /* background-color: rgb(90, 88, 88); */
+}
+
+.map {
+    display: flex;
+    margin: 50px 0px;
+    background-color: rgb(59, 59, 59);
+    padding: 30px;
+    font-weight: lighter;
+    font-size: 20px;
+    font-family: 'Josefin Sans', sans-serif;
+
+}
+.smallimg:hover{
+    
+    box-shadow: rgb(90, 90, 90) inset 3px 3px 3px;
+    border-radius: 20px;
+    
+}
+
+iframe {
+    margin-top: 10px;
+    box-shadow: black 2px 2px 3px;
+}
+
+.container {
+    display: flex;
+    background-color: rgb(255, 252, 252);
+    width: 96vw;
+    height: 50vh;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    align-items: center;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: lighter;
+    font-size: 20px;
+    padding: 20px;
+}
+.feedback {
+    display: flex;
+    background-color: rgb(255, 252, 252);
+    width: 95vw;
+    height: 80vh;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    align-items: center;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: lighter;
+    font-size: 20px;
+    padding: 20px 30px;
+}
+label{
+    font-weight: 400;
+
+}
+form{
+    margin-left: 100px;
+    padding-right: 80px;
+}
+fieldset{
+    margin-left: 200px;
+    margin-bottom: 20px;
+}
+input{
+     padding: 10px 100px;
+     
+}
+
+.btn{
+    padding: 15px 30px;
+    margin:15px 0px;
+    background-color: #3b3b3b;
+    color: white;
+}
+.btn:hover{
+    background-color: rgb(65, 105, 5);
+    box-shadow: black 3px 4px 10px ;
+   
+}
+.footer{
+    background-color: #3b3b3b;
+    /* background-image: url(/interiorIMG/f8.jpg) ; */
+    background-size: cover;
+    color: white;
+    height: 200px;
+    display: flex;
+    padding-top: 80px;
+    align-items: center;
+    text-align: center;
+    
+    
+}
+
+.subfooter{
+
+    height: 200px;
+    width: 200px;
+    margin-left: 200px;
+    color: white;
+
+}
+.ftext{
+    color: white;
+    padding: 25px 20px;
+    background-color: rgb(59, 59, 59);
+    text-align: center;
+}
