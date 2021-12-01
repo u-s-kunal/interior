@@ -103,6 +103,10 @@ li a:hover {
 
 }
 
+.img1:hover{
+    cursor: pointer;
+}
+
 
 
 .collage {
