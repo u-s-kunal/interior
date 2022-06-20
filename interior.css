@@ -134,6 +134,7 @@ li a:hover {
     text-align: center;
     box-shadow: rgb(0, 0, 0) 5px 5px 24px;
     border-radius: 20px;
+    transition-duration: 1s;
 }
 
 .para2:hover {
@@ -147,6 +148,7 @@ li a:hover {
 .sub {
     height: 200px;
     width: 300px;
+    transition-duration:1s;
 }
 
 .sub:hover {
@@ -160,9 +162,8 @@ li a:hover {
 .box2 {
     margin: 20px 0px;
     display: flex;
-
     flex-direction: row;
-    /* background-color: rgb(90, 88, 88); */
+   
 }
 
 .map {
@@ -235,6 +236,7 @@ input{
     margin:15px 0px;
     background-color: #3b3b3b;
     color: white;
+    transition-duration: 600ms;
 }
 .btn:hover{
     background-color: rgb(65, 105, 5);
